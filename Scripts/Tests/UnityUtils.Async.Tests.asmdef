@@ -1,6 +1,6 @@
 {
-    "name": "Module.Tests",
-    "rootNamespace": "",
+    "name": "UnityUtils.Async.Tests",
+    "rootNamespace": "niscolas.UnityUtils.Async.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
