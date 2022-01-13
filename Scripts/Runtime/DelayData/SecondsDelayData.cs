@@ -1,8 +1,9 @@
 using System;
 using Cysharp.Threading.Tasks;
+using niscolas.UnityUtils.Core;
 using UnityEngine;
 
-namespace niscolas.UnityUtils.Extras
+namespace niscolas.UnityUtils.Async
 {
     [Serializable]
     public class SecondsDelayData

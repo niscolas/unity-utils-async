@@ -1,15 +1,16 @@
 ﻿using niscolas.UnityUtils.Core;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityUtils;
 
-namespace niscolas.UnityUtils.Extras
+namespace niscolas.UnityUtils.Async
 {
-    public class DelayedLifecycleCallbackUnityEvent : AutoTriggerMonoBehaviour
+    [AddComponentMenu(Constants.AddComponentMenuPrefix + "Delayed Unity Event")]
+    public class DelayedUnityEventMB : AutoTriggerMonoBehaviour
     {
         [SerializeField]
         private DelayWrapper _delay;
 
+        [Header(HeaderTitles.Events)]
         [SerializeField]
         private UnityEvent _event;
 

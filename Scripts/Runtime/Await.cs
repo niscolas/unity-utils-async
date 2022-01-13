@@ -3,7 +3,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace niscolas.UnityUtils.Extras
+namespace niscolas.UnityUtils.Async
 {
     public static class Await
     {

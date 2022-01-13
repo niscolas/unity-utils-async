@@ -1,11 +1,11 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
 using niscolas.OdinCompositeAttributes;
-using niscolas.UnityUtils.Extras;
+using niscolas.UnityUtils.Core;
 using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
-namespace UnityUtils
+namespace niscolas.UnityUtils.Async
 {
     [Serializable]
     public class DelayWrapper

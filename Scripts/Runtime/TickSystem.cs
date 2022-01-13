@@ -1,7 +1,7 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
 
-namespace niscolas.UnityUtils.Extras
+namespace niscolas.UnityUtils.Async
 {
     public class TickSystem
     {
