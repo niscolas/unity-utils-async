@@ -5,7 +5,7 @@ using UnityEngine.Events;
 namespace niscolas.UnityUtils.Async
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Delayed Unity Event")]
-    public class DelayedUnityEventMB : AutoTriggerMonoBehaviour
+    public class DelayedUnityEventMB : AutoTriggerMB
     {
         [SerializeField]
         private DelayWrapper _delay;

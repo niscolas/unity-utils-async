@@ -8,7 +8,7 @@ using UnityEngine.Events;
 namespace niscolas.UnityUtils.Async
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Simple Timer")]
-    public class SimpleTimerMB : AutoTriggerMonoBehaviour
+    public class SimpleTimerMB : AutoTriggerMB
     {
         [SerializeField]
         private IntReference _initialTimeLeft;

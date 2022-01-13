@@ -6,7 +6,7 @@ using UnityEngine;
 namespace niscolas.UnityUtils.Async
 {
     [AddComponentMenu(Constants.AddComponentMenuPrefix + "Counter")]
-    public class CounterMB : AutoTriggerMonoBehaviour
+    public class CounterMB : AutoTriggerMB
     {
         [ExtractContent]
         [SerializeField]
