@@ -11,18 +11,18 @@ namespace niscolas.UnityUtils.Async
     public class SerializedCounterData
     {
         [SerializeField]
-        private IntReference _from = new();
+        private IntReference _from = new IntReference();
 
         [SerializeField]
-        private IntReference _to = new();
-
-        [SecondsLabel]
-        [SerializeField]
-        private FloatReference _firstTickTimeInterval = new();
+        private IntReference _to = new IntReference();
 
         [SecondsLabel]
         [SerializeField]
-        private FloatReference _timeInterval = new();
+        private FloatReference _firstTickTimeInterval = new FloatReference();
+
+        [SecondsLabel]
+        [SerializeField]
+        private FloatReference _timeInterval = new FloatReference();
 
         [Header(HeaderTitles.Events)]
         [SerializeField]
